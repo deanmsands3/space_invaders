@@ -5,6 +5,9 @@ add_executable(space_invaders main.cpp)
 find_package(GLEW REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
-target_link_libraries(space_invaders GLEW::GLEW)
-target_link_libraries(space_invaders OpenGL::GL)
-target_link_libraries(space_invaders glfw)
+target_link_libraries(
+    space_invaders PRIVATE
+    GLEW::GLEW
+    OpenGL::GL
+    glfw
+)
