@@ -41,3 +41,4 @@ CMakeUserPresets.json
 
 *.swp
 space_invaders
+.DS_Store
