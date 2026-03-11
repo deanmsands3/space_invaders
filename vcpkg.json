@@ -1,0 +1,13 @@
+{
+  "dependencies": [
+    {
+      "name": "opengl"
+    },
+    {
+      "name": "glew"
+    },
+    {
+      "name": "glfw3"
+    }
+  ]
+}
